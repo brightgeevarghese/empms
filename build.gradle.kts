@@ -36,3 +36,7 @@ dependencies {
 tasks.withType<Test> {
     useJUnitPlatform()
 }
+tasks.bootJar {
+    archiveBaseName = "spring-boot-empms"
+    archiveVersion = "1.0.1"
+}
